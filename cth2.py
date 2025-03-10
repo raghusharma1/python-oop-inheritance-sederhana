@@ -3,7 +3,7 @@ class Hewan(object):
         self.nama = nama
 
     def gonggong(self):
-        print 'Suara gonggongan hewan'
+        print('Suara gonggongan hewan')
 
 class Anjing(Hewan):
     def gonggong(self):
@@ -23,6 +23,6 @@ dog = Anjing('Anjing')
 wolf = Srigala('Serigala')
 lion = Singa('Singa')
 
-print 'Suara ' + dog.nama + ' yaitu ' + dog.gonggong()
-print 'Suara ' + wolf.nama + ' yaitu ' + wolf.gonggong()
-print 'Suara ' + lion.nama + ' yaitu ' + lion.gonggong()
+print('Suara' + dog.nama + ' yaitu ' + dog.gonggong())
+print('Suara ' + wolf.nama + ' yaitu ' + wolf.gonggong())
+print('Suara ' + lion.nama + ' yaitu ' + lion.gonggong())

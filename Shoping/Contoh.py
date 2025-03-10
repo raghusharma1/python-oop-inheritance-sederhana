@@ -1,4 +1,4 @@
-ShoppingCart(object):
+class ShoppingCart(object):
     # Membuat shopping cart objek
     keranjang = []
 
